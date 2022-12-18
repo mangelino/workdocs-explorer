@@ -19,8 +19,6 @@ def red(skk): return f"\033[91m {skk}\033[00m"
 # def prBlack(skk): print("\033[98m {}\033[00m" .format(skk))
 # def prPurple(skk): print("\033[95m {}\033[00m" .format(skk))
 
-
-
 def represent_size(size):
     if size < 1024:
         return f"{size} bytes"
